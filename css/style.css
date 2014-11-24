@@ -7,3 +7,7 @@ h3.text-muted{
 	background-color: #393939;
 }
 
+body { 
+	height: 100%;
+	overflow-y: hidden;
+}
