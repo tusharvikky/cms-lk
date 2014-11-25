@@ -2,7 +2,7 @@
  * jQuery Math Quiz Validation 
  * 	- For CMS-Lucknow.
  *
- * Author: tusharvikky <tusharvikky@lokconnect.com>
+ * Author:Tushar Deo <tusharvikky@gmail.com>
  * Released under MIT license
  *
  * Date: 2014-11-25 12:08
