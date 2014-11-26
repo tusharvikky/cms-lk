@@ -42,8 +42,10 @@
 			  
 			  <div class="col-md-6">
 				  <!-- Countdown -->
+				  <p style="margin-left:180px;" class="lead">Answer before the timer ends!!</p>
 				  <div class="clock" style="margin:2em; width: 61%; float: right;"></div>
 					<div class="message"></div>
+				  <div style="display:none; z-index: 4;" id="bomb"></div>
 				  <script type="text/javascript">
 					var clock;
 
@@ -54,8 +56,9 @@
 							countdown: true,
 							callbacks: {
 								stop: function() {
-									$('.message').html('The clock has stopped!');
+									/*$('.message').html('The clock has stopped!');*/
 									$("div#error").show();
+									$("div#bomb").show();
 								}
 							}
 						});

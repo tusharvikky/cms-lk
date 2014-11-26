@@ -44,10 +44,14 @@ $('input[name=answer]').change(function(){
 				console.log("wrong answer");
 				$("div#error").show();
 				$('a#validate').hide();
+				$("div#bomb").show();
+				
 			}
 		}
 		
 		/* Future Expansion */
+		
+		
 
 	});
 
