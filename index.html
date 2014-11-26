@@ -12,7 +12,9 @@
 	  
 	<!-- Other Stylesheets -->
 	  <link href="css/style.css" rel="stylesheet">
+	  <link rel="stylesheet" href="css/flipclock.css">
 	  
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	  
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,34 +32,77 @@
       </div>
 
       <div class="jumbotron" id="question" data-answer="A1">
-        <h1>Question</h1>
+		  
+		  <div class="row">
+			  <div class="col-md-6">
+				  <h1>Question</h1>
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-		
+			  </div>
+			  
+			  
+			  <div class="col-md-6">
+				  <!-- Countdown -->
+				  <div class="clock" style="margin:2em; width: 61%; float: right;"></div>
+					<div class="message"></div>
+				  <script type="text/javascript">
+					var clock;
 
+					$(document).ready(function() {
+
+						clock = $('.clock').FlipClock(60, {
+							clockFace: 'MinuteCounter',
+							countdown: true,
+							callbacks: {
+								stop: function() {
+									$('.message').html('The clock has stopped!');
+									$("div#error").show();
+								}
+							}
+						});
+
+					});
+
+				  </script>
+				  <!-- Countdown End -->
+				  
+			  </div>
+			  
+			  
+			  <div class="col-md-12">
+				  <form id="answer">
+					  <label for="Answer" class="control-label input-group"><p class="lead">Your Options:</p></label>
+					  <div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-default">
+							  <input type="radio" name="answer" value="A1">A1
+						  </label>
+						  <label class="btn btn-default">
+							  <input type="radio" name="answer" value="A2">A2
+						  </label>
+						  <label class="btn btn-default">
+							  <input type="radio" name="answer" value="A3">A3
+						  </label>
+						  <label class="btn btn-default">
+							  <input type="radio" name="answer" value="A4">A4
+						  </label>
+					  </div> 
+					  <!-- Adding element href instead of button to prevent form submit -->
+					  <a class="btn btn-lg btn-primary" id="validate" disabled>I'm All IN!</a>
+					  <a href="#" class="btn btn-lg btn-success" style="display:none;" id="next"> Next >> </a>  
+					</form>
+
+				  	<div id="error" style="display:none;"><p class="lead"> Sorry!! Better Luck Next Time. </p></div>
+				  
+			  </div>
+			  
+		  </div>
+		  
+		  
+		  
+        
+		
     <!-- Input RADIO -->
     <div class="row">
-    <form id="answer">
-      <label for="Answer" class="control-label input-group">Answer</label>
-      <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-default">
-              <input type="radio" name="answer" value="A1">A1
-          </label>
-          <label class="btn btn-default">
-              <input type="radio" name="answer" value="A2">A2
-          </label>
-          <label class="btn btn-default">
-              <input type="radio" name="answer" value="A3">A3
-          </label>
-          <label class="btn btn-default">
-              <input type="radio" name="answer" value="A4">A4
-          </label>
-      </div> 
-      <!-- Adding element href instead of button to prevent form submit -->
-      <a class="btn btn-lg btn-primary" id="validate" disabled>I'm All IN!</a>
-      <a href="#" class="btn btn-lg btn-success" style="display:none;" id="next"> Next >> </a>  
-    </form>
-
-    <div id="error" style="display:none;"> Sorry!! Better Luck Next Time. </div>
+    
   </div>
   <!-- /Input RADIO -->
 
@@ -76,5 +121,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
+	  
+	 <!-- js for counter -->
+	  <script src="js/flipclock.js"></script>		
   </body>
 </html>
