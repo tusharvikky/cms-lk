@@ -1,0 +1,319 @@
+{ // Question 26
+    "q": "If _______ =12/7, then n is",
+    "a": [
+        {"option": "6",      "correct": true},
+        {"option": "4",     "correct": false},
+        {"option": "7",      "correct": false},
+        {"option": "5",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 27
+    "q": "If a1=a2=2, an=an-1(n>2), then a5 is",
+    "a": [
+        {"option": "0",      "correct": false},
+        {"option": "-12",     "correct": false},
+        {"option": "-1",      "correct": true},
+        {"option": "1",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 28
+    "q": "P and Q are points on the joining A (-2,5) and B(3,1) such that AP=PQ=QB. Then the midpoint of PQ is",
+    "a": [
+        {"option": "(1/2, 3)",      "correct": true},
+        {"option": "(-1/2,4)",     "correct": false},
+        {"option": "(2,3)",      "correct": false},
+        {"option": "(1,4)",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 29
+    "q": "If (3, 4) is extremity of a diameter of a circle with centre (1, 2) the other extremity of the diameter is",
+    "a": [
+        {"option": "(-3, 4)",      "correct": false},
+        {"option": "(4, 3)",     "correct": false},
+        {"option": "(-1, 0)",      "correct": true},
+        {"option": "(4, 6)",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 30
+    "q": "The straight line 3x+y=9 divides the segment joining the points (1, 3) and (2, 7) in the ratio",
+    "a": [
+        {"option": "4:2",      "correct": false},
+        {"option": "3:4",     "correct": true},
+        {"option": "4:5",      "correct": false},
+        {"option": "5:6",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 31
+    "q": "The distance of the point (x, y) from the y axis is",
+    "a": [
+        {"option": "x",      "correct": false},
+        {"option": "y",     "correct": false},
+        {"option": "|x|",      "correct": true},
+        {"option": "|y|",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 32
+    "q": "(k,-2), (0,3k), (-k/2, k/2) are the vertices of a triangle. If the abscissa of it’s centroid is equal to the ordinate, then the value of k is",
+    "a": [
+        {"option": "-2",      "correct": false},
+        {"option": "2/3",     "correct": true},
+        {"option": "3",      "correct": false},
+        {"option": "-3",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 33
+    "q": "Find out the wrong number in the following sequence of numbers 4,13,17,26,30,38,43",
+    "a": [
+        {"option": "13",      "correct": false},
+        {"option": "26",     "correct": false},
+        {"option": "38",      "correct": true},
+        {"option": "43",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 34
+    "q": "The length of the diagonal of a square is 4√2 cms. Its area is",
+    "a": [
+        {"option": "32 cm2",      "correct": false},
+        {"option": "8 cm2",     "correct": false},
+        {"option": "16 cm2",      "correct": true},
+        {"option": "36 cm2",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 35
+    "q": "35. What decimal fraction is 20mm of a metre?",
+    "a": [
+        {"option": "0.2",      "correct": false},
+        {"option": "0.05",     "correct": false},
+        {"option": "0.02",      "correct": true},
+        {"option": "0.002",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 36
+    "q": "( ) =?",
+    "a": [
+        {"option": "0.32",      "correct": false},
+        {"option": "1",     "correct": false},
+        {"option": "0.72",      "correct": true},
+        {"option": "0.26",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 37
+    "q": "3.57 in fractional form",
+    "a": [
+        {"option": "357/99",      "correct": false},
+        {"option": "357/90",     "correct": false},
+        {"option": "345/99",      "correct": true},
+        {"option": "354/90",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 38
+    "q": "√1008/√7 = ?",
+    "a": [
+        {"option": "12.75",      "correct": false},
+        {"option": "11.68",     "correct": false},
+        {"option": "12",      "correct": true},
+        {"option": "13.26",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 39
+    "q": "The surface area of a cube is 216 cm2. What is its volume?",
+    "a": [
+        {"option": "1296 cm3",      "correct": false},
+        {"option": "648 cm3",     "correct": false},
+        {"option": "216 cm3",      "correct": true},
+        {"option": "864 cm3",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 40
+    "q": "If x/2y = 3/2, then the value of (2x+y)/(x-2y) equals",
+    "a": [
+        {"option": "1/7",      "correct": false},
+        {"option": "7.1",     "correct": false},
+        {"option": "7",      "correct": true},
+        {"option": "6.8",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 41
+    "q": "If a=1.2, b=2.1 and c=-3.3, then the value of a3+b3+c3-3abc is",
+    "a": [
+        {"option": "1",      "correct": false},
+        {"option": "2",     "correct": false},
+        {"option": "0",      "correct": true},
+        {"option": "3",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 42
+    "q": "I wrote all the numbers from 0 to 999.Which digit did I write less than others?",
+    "a": [
+        {"option": "9",      "correct": false},
+        {"option": "1",     "correct": false},
+        {"option": "0",      "correct": true},
+        {"option": "5",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 43
+    "q": "If A and B are perfect cubes, which will not necessarily be a perfect cube?",
+    "a": [
+        {"option": "27B",      "correct": false},
+        {"option": "AB",     "correct": false},
+        {"option": "AB+27",      "correct": true},
+        {"option": "A-B",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 44
+    "q": "What is the average of all positive integers less than 100 that are multiples of 7?",
+    "a": [
+        {"option": "57",      "correct": false},
+        {"option": "50",     "correct": false},
+        {"option": "52.5",      "correct": true},
+        {"option": "57.2",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 45
+    "q": "‘f’ is a function such that f(x) <0. The graph of the new function ‘g’ defined by g(x) = |f(x)| is a reflection of the graph...",
+    "a": [
+        {"option": "On the x-axis",      "correct": false},
+        {"option": "On the y-axis",     "correct": false},
+        {"option": "On the line y=x",      "correct": true},
+        {"option": "On the line y=(-x)",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 46
+    "q": "A school committee consists of 2 teachers and 4 students. The number of committees that can be formed from 5 teachers and 10 students is?",
+    "a": [
+        {"option": "10",      "correct": false},
+        {"option": "15",     "correct": false},
+        {"option": "2100",      "correct": true},
+        {"option": "2500",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 47
+    "q": "If f(x) is an odd function, then |f(x)| is...",
+    "a": [
+        {"option": "An odd function",      "correct": false},
+        {"option": "An even function",     "correct": false},
+        {"option": "Neither odd nor even",      "correct": true},
+        {"option": "Even and odd",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 48
+    "q": "a+b=10 b=?",
+    "a": [
+        {"option": "5",      "correct": false},
+        {"option": "6",     "correct": false},
+        {"option": "8",      "correct": true},
+        {"option": "7",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 49
+    "q": "11: 1210:: 8:?",
+    "a": [
+        {"option": "216",      "correct": false},
+        {"option": "1029",     "correct": false},
+        {"option": "448",      "correct": true},
+        {"option": "729",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 50
+    "q": "12: 144:: 20: ?",
+    "a": [
+        {"option": "464",      "correct": false},
+        {"option": "135",     "correct": false},
+        {"option": "400",      "correct": true},
+        {"option": "729",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 51
+    "q": "For my anniversary, I decided to surprise my wife. Since she is a voracious reader, I decided to collect a lot of books for her. On the first day of the month, I bought one book, on the second, I bought two and on the third, I bought three. This process went on till the anniversary and on the day, I had 276 books with me to gift her.Calculate, on which day is our anniversary?",
+    "a": [
+        {"option": "8",      "correct": false},
+        {"option": "14",     "correct": false},
+        {"option": "23",      "correct": true},
+        {"option": "23",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 52
+    "q": "The average of first 50 natural numbers is .....",
+    "a": [
+        {"option": "25.30",      "correct": false},
+        {"option": "25.00",     "correct": false},
+        {"option": "25.5",      "correct": true},
+        {"option": "12.25",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 53
+    "q": "A clock strikes once at 1 o’clock, twice at 2 o’clock, thrice at 3 o’clock and so on. How many times will it strike in 24 hours?",
+    "a": [
+        {"option": "78",      "correct": false},
+        {"option": "136",     "correct": false},
+        {"option": "156",      "correct": true},
+        {"option": "196",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
+{ // Question 54
+    "q": "54. 106 × 106 – 94 × 94 =?",
+    "a": [
+        {"option": "2004",      "correct": false},
+        {"option": "1904",     "correct": false},
+        {"option": "2400",      "correct": true},
+        {"option": "1906",     "correct": false} 
+    ],
+    "correct": "<p><span>That's right!</span></p>",
+    "incorrect": "<p><span>Uhh no.</span></p>" 
+},
